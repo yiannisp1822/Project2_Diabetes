@@ -1,17 +1,43 @@
-# Project2_Diabetes
+# Project2_Diabetes  
 
-**Predicting Diabetes in Patients: A Machine Learning Model**  
+# Predicting Diabetes in Patients: A Machine Learning Model  
 
 A Machine Learning Project by Yiannis Pagkalos, Sami Chowdhury, Mei Kam Bharadwaj, Dhwani Patel, and Lauren Christiansen  
 
-**Executive Summary**  
+# Executive Summary  
 
 Our project goal is to determine how key datapoints (BMI, high blood pressure, cholesterol, stroke, heart disease/attack, physical activity level, general health level, physical health level, difficulty walking scale, age, education level, income level) relate to the diagnosis of diabetes in different patients. We used this underlying data and created & trained a machine learning model to easily predict whether a patient would be diagnosed.
 
+# Table of Contents
+- [Installation & Usage](#installation--usage)
+    - [File Structure](#file-structure)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+- [Project Evolution - Data Pivot](#project-evolution---data-pivot)
+- [Data Collection & Preprocessing](#data-collection--preprocessing)
+- [Analysis & Results](#analysis--results)
+- [Key Visualizations](#key-visualizations)
+- [Challenges Encountered](#challenges-encountered)
+- [Limitations and Considerations](#limitations-and-considerations)
+    - [Data Limitations](#data-limitations)
+    - [Methodological Constraints](#methodological-constraints)
+    - [External Factors](#external-factors)
+- [Summary of Findings](#summary-of-findings)
+- [Potential Next Steps](#potential-next-steps)
+- [Contributers](#contributors)
+- [Acknowledgments](#acknowledgments)
+- [Repository Structure](#repository-structure)
 
-**Installation & Usage**  
+    
 
-Prerequisites:
+
+# Installation & Usage  
+
+
+## File Structure
+
+
+## Prerequisites
 
 Python 3.x
 pandas
@@ -24,7 +50,7 @@ Git version control system
 Internet connection for data downloads
 
 
-Setup:  
+## Setup    
 
 Clone the repository:
 https://github.com/yiannisp1822/Project2_Diabetes.git
@@ -37,8 +63,29 @@ Download required datasets:
 https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/data
 Place in Resources/ directory
 Verify file integrity using provided checksums
-Analysis Results
-Machine Learning Methods
+
+# Project Evolution - Data Pivot  
+
+## Initial Direction
+Originally focused on datasets with less volume but including valuable datapoints such as H1BC 
+https://www.kaggle.com/code/chanchal24/diabetes-dataset-eda-prediction-with-7-models
+https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset
+
+
+# Data Collection & Preprocessing
+Initial Assessment
+Data source verification
+Quality validation
+Format standardization
+Missing value analysis
+Data Cleaning & Integration
+Post-cleaning validation
+Category Grouping
+Model Methodology
+Running various models trying to get varied accuracy scores
+
+# Analysis & Results
+## Machine Learning Methods
 
 Our modelling employed multiple approaches:
 Random Forest
@@ -76,7 +123,7 @@ xg boost
 
 
 
-Key Visualizations
+# Key Visualizations
 We want to highlight these detailed visualizations:
 Decision Tree 
 
@@ -93,44 +140,24 @@ Logistic Regression - Grid Search
 KNN - Grid Search
    
 
-
-**Project Evolution: Data Pivot**  
-
-Initial Direction
-Originally focused on datasets with less volume but including valuable datapoints such as H1BC 
-https://www.kaggle.com/code/chanchal24/diabetes-dataset-eda-prediction-with-7-models
-https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset
-
-
-Challenges Encountered:
+# Challenges Encountered
 Potential of false negatives and false positives given modeling accuracy scores
 Qualitative vs quantitative data challenges
 Potential dangers of self-reported data
-
 Data accuracy - where/how was it collected?
-Data Collection & Preprocessing
-Initial Assessment
-Data source verification
-Quality validation
-Format standardization
-Missing value analysis
-Data Cleaning & Integration
-Post-cleaning validation
-Category Grouping
-Model Methodology
-Running various models trying to get varied accuracy scores
 
-Limitations and Considerations:
-Data Limitations
+
+# Limitations and Considerations
+## Data Limitations
 Different methodologies (self-reported data)
-Methodological Constraints
+## Methodological Constraints
 Healthcare infrastructure differences
 Socioeconomic factors
-External Factors
-Healthcare system adaptations
+## External Factors
+- Healthcare system adaptations
 
-**Summary of Findings:**
-Key Insights
+# Summary of Findings
+## Key Insights
 After evaluating the initial results, we focused on testing models on the data after removing low correlation features (<0.1) and encoding only the BMI features (as it was the non-numeric one).
 
 
@@ -142,7 +169,7 @@ XGBClassifier
 
 To improve initial results, we ran GridSearchCV on each model to ensure we are using each model’s parameters optimally.
 
-**POTENTIAL NEXT STEPS:**
+# Potential Next Steps:
 We would explore more datasets that include health indicators such as HbA1C (hemoglobin A1C) and fast blood sugar test (FBS). 
 
 HbA1C test measures the average blood sugar (glucose) level over the past 60-90 days.
@@ -154,7 +181,7 @@ It is best to look at a dataset that includes both HbA1C and FBS data. HbA1C tes
 In practice, both tests are used in the office to get a more accurate diagnosis of diabetes.
 
 
-**Contributors**
+# Contributors  
 Yiannis Pagkalos: Project Lead
 Sami Chowdhury: Data Sourcing, Data Cleaning, Methodology
 Mei Kam Bharadwaj: Documentation, Data Modeling
@@ -162,9 +189,11 @@ Dhwani Patel: Data Visualization
 Lauren Christiansen: Data Visualization, Data Grouping
 
 
-**Acknowledgments**
+# Acknowledgments
 Data providers: Kaggle
 Academic advisors
 Healthcare professionals who provided data for analysis
+
+# Repository Structure
 
 
