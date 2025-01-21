@@ -181,7 +181,7 @@ The first thing we explored when going through the data was the specific feature
 
 Initially, we created a correlation heatmap to figure out how each variable affected the target variable of someone having diabetes or not. Below in **Fig. 1** we show this heatmap. 
 
-<img align="center" width="900" height="400" src='graphics/fig1.1_correlation_heatmap.png'>
+<img align="center" width="900" height="700" src='graphics/fig1.1_correlation_heatmap.png'>
 
 - **Fig 1.1: Correlation Heatmap of each feature to the target diabetes indicator variable**
 
