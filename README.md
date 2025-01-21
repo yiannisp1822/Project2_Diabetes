@@ -108,7 +108,7 @@ Our project goal is to determine how key datapoints (BMI, high blood pressure, c
 
 - Launch Jupyter Notebook
 
-- Download required datasets and ensure it is in the **Resources/** directory. The dataset can be found [at this link](#https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/data) 
+- Download required datasets and ensure it is in the **Resources/** directory. The dataset can be found [at this link](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/data) 
 
 - Verify file integrity using provided checksums
 
@@ -116,12 +116,12 @@ Our project goal is to determine how key datapoints (BMI, high blood pressure, c
 
 ## Initial Direction
 
-Originally, we began our data exploration with [this speicific dataset on Kaggle](#https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) from the National Institute of Diabetes and Digestive and Kidney Diseases. This data was eventually abandoned since it contained less than 1000 rows, and so had a very small volume and would not produce strong machine learning models.  
+Originally, we began our data exploration with [this specific dataset on Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) from the National Institute of Diabetes and Digestive and Kidney Diseases. This data was eventually abandoned since it contained less than 1000 rows, and so had a very small volume and would not produce strong machine learning models.  
   
   
-The next dataset we looked at was found [at this Kaggle link](#https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) that also was a collection of medical and demographic data from patients, along with their diabetes status. One of the most interesting points about this dataset was that it included H1BC, a valuable datapoint that could improve the machine learning model as this factor is an important one used by doctors to determine if a patient has diabetes. However, we decided against using this dataset since we could not verify the actual source for this dataset, which could lead to doubt as to whether our data or machine learning models created from this dataset would be vaild and noteworthy.  
+The next dataset we looked at was found [at this Kaggle link](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) that also was a collection of medical and demographic data from patients, along with their diabetes status. One of the most interesting points about this dataset was that it included H1BC, a valuable datapoint that could improve the machine learning model as this factor is an important one used by doctors to determine if a patient has diabetes. However, we decided against using this dataset since we could not verify the actual source for this dataset, which could lead to doubt as to whether our data or machine learning models created from this dataset would be vaild and noteworthy.  
 
-In the end, we decided to use this data [from the Behavioral Risk Factor Surveillance System (BRFSS)](#https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/data). The survey is a health-related telephone survey that is collected annually by the CDC. It is an annual survey that has been collected since 1984 and the features are either questions asked of participants or variables calculated based on their responses. We will use this dataset to create a machine learning model that predicts, based on the given data, whether a person has diabetes or does not.
+In the end, we decided to use this data [from the Behavioral Risk Factor Surveillance System (BRFSS)](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/data). The survey is a health-related telephone survey that is collected annually by the CDC. It is an annual survey that has been collected since 1984 and the features are either questions asked of participants or variables calculated based on their responses. We will use this dataset to create a machine learning model that predicts, based on the given data, whether a person has diabetes or does not.
 
 # Data Collection & Preprocessing
 
@@ -639,11 +639,11 @@ From these results we can make a few conclusions:
 
 
 # Contributors  
-- [Yiannis Pagkalos](#https://github.com/yiannisp1822): Project Lead
-- [Sami Chowdhury](#https://github.com/SamiC2): Data Sourcing, Data Cleaning, Methodology
-- [Mei Kam Bharadwaj](#https://github.com/meikaykam): Documentation, Data Modeling
+- [Yiannis Pagkalos](https://github.com/yiannisp1822): Project Lead
+- [Sami Chowdhury](https://github.com/SamiC2): Data Sourcing, Data Cleaning, Methodology
+- [Mei Kam Bharadwaj](https://github.com/meikaykam): Documentation, Data Modeling
 - [Dhwani Patel]: Data Visualization
-- [Lauren Christiansen](#https://github.com/lmc5440): Data Visualization, Data Grouping
+- [Lauren Christiansen](https://github.com/lmc5440): Data Visualization, Data Grouping
 
 
 # Acknowledgments
