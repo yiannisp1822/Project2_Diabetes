@@ -629,7 +629,7 @@ From these results we can make a few conclusions:
 
 - We would explore more datasets that include health indicators such as HbA1C (hemoglobin A1C) and fast blood sugar test (FBS). 
 
-- With our given data, we would also perform PCA to figure out which features influenced our models the most, creating a priority of data required to apply our data to future datasets.
+- With our given data, we would also perform PCA to figure out which features influenced our models the most, creating a priority of data required to apply our data to future datasets. However, given that the dataset was primarily self-reported data, this analysis would not be entirely accurate.
 
 - HbA1C test measures the average blood sugar (glucose) level over the past 60-90 days.
  
